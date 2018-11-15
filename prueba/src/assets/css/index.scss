@@ -1,0 +1,33 @@
+@import "../../node_modules/bulma/css/bulma.css";
+@import "./variables.scss";
+
+body, html {
+  font-size: 10px; // 1rem === 10px
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100vw;
+}
+
+#main-content {
+
+}
+
+#content {
+  background-color: $main-white;
+}
+
+#footer, #header {
+  background-color: $main-blue;
+}
+
+
+// EXTRAS
+
+
+.overflow-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
