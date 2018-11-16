@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 Vue.use(VueHead, {
   meta: {
     script: {
-      type: 'text/javascript', src: '"https://use.fontawesome.com/releases/v5.3.1/js/all.js', async: true
+      type: 'text/javascript', src: '"https://use.fontawesome.com/releases/v5.3.1/js/all.js"', async: true
     }
   }
 })
