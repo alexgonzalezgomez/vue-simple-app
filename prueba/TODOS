@@ -1,7 +1,18 @@
 ### MIRAR QUE BASE DE USER TENEMOS
 
   siempre tiramos de un usuario aunque sea vacío
-  
+
 #### full name, email, phone, address,
 
 ## mirar como utilizar un componente base y cargar otros sobre el mismo
+
+
+
+
+___________
+16/11/2018
+
+- mirar bien como hacer un buen sistema de store
+- mirar vuexpersistedstate
+- mirar componentes propios de vue
+- probar a sacar una app con cordova
