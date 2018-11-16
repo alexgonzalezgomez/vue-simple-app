@@ -12,6 +12,16 @@ export default {
   name: 'app',
   components: {
     BaseLayout
+  },
+  // FIXME VUE_HEAD
+  // way to add base metatags
+  // scripts, css...
+  head: {
+    script: [
+      {
+        type: 'text/javascript', src: 'https://use.fontawesome.com/releases/v5.3.1/js/all.js', async: true
+      }
+    ]
   }
 }
 </script>
