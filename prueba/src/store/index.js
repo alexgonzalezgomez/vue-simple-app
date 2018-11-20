@@ -5,6 +5,8 @@ export default new Vuex.store({
     fullName: null,
     email: null,
     phone: null,
-    address: null
-  }
+    address: null,
+    //??
+  },
+  amount: 0.0,
 })
