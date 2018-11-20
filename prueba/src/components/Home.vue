@@ -9,5 +9,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import "../../node_modules/bulma/css/bulma.css";
+  @import "../assets/css/index.scss";
 </style>

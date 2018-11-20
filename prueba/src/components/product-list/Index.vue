@@ -25,6 +25,13 @@ let items = [
     price: 12.9,
     type: 2,
     id: 3
+  },
+  {
+    name: 'prueba nuevo item',
+    price: 100.9,
+    type: 3,
+    id: 4,
+    color: 'red'
   }
 ]
 
@@ -48,4 +55,8 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  @import "../../assets/css/index.scss";
+</style>
 

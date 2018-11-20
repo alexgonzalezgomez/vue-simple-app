@@ -1,8 +1,8 @@
-@import "../../node_modules/bulma/css/bulma.css";
+@import "~bulma/bulma.sass";
 @import "./variables.scss";
 
 body, html {
-  font-size: 10px; // 1rem === 10px
+  font-size: 10px!important; // 1rem === 10px
   margin: 0;
   padding: 0;
   height: 100%;

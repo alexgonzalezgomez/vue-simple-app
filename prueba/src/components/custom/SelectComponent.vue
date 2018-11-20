@@ -2,7 +2,7 @@
 
   <div class="cselect">
     <select name="" id="" @change="emitSelection">
-      <option v-for="option in options" :key="option" :value="option.value ? option.value : option">
+      <option v-for="option in CPOptions" :key="option.value ? option.value : option" :value="option.value ? option.value : option">
         {{option.name ? option.name : option}}
       </option>
     </select>
@@ -21,9 +21,15 @@
     props: ['attr','options'],
     methods: {
       emitSelection(e) {
-        this.$emit('newSelection', this.attr ,e.currentTarget.value)
+        const val = e.currentTarget.value
+        this.$emit('newSelection', this.attr, val.includes(-1) ? null : val)
       }
-    }
+    },
+    computed: {
+      CPOptions() {
+        return this.options
+      }
+    },
   }
 </script>
 
