@@ -13,9 +13,6 @@ import HelpersMixin from './mixins/helpers-mixin'
 
 Vue.mixin(HelpersMixin)
 
-// load bulma.io css FIXME import in a css file, not a script
-// import './../node_modules/bulma/css/bulma.css';
-
 // FIXME DON'T FORGET TO REMOVE
 Vue.mixin({
   methods: {
